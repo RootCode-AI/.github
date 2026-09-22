@@ -39,7 +39,6 @@ We design and build tooling, agents, and infrastructure that make it easier to d
         <img src="https://github.com/Tharinda-Pamindu.png" width="100" alt="Tharinda Pamindu"/><br />
         <b>Tharinda Pamindu</b>
       </a><br />
-      <sub>Owner</sub><br />
       <sub><a href="https://github.com/Tharinda-Pamindu">@Tharinda-Pamindu</a></sub>
     </td>
     <td align="center">
@@ -47,7 +46,6 @@ We design and build tooling, agents, and infrastructure that make it easier to d
         <img src="https://github.com/Dilakshi13.png" width="100" alt="Dilakshi Sakila"/><br />
         <b>Dilakshi Sakila</b>
       </a><br />
-      <sub>Owner</sub><br />
       <sub><a href="https://github.com/Dilakshi13">@Dilakshi13</a></sub>
     </td>
     <td align="center">
@@ -55,7 +53,6 @@ We design and build tooling, agents, and infrastructure that make it easier to d
         <img src="https://github.com/Mihiran-Thilakarathna.png" width="100" alt="T.H.Mihiran Thilakarathna"/><br />
         <b>T.H.Mihiran Thilakarathna</b>
       </a><br />
-      <sub>Owner</sub><br />
       <sub><a href="https://github.com/Mihiran-Thilakarathna">@Mihiran-Thilakarathna</a></sub>
     </td>
     <td align="center">
@@ -63,7 +60,6 @@ We design and build tooling, agents, and infrastructure that make it easier to d
         <img src="https://github.com/Piyumanjalee.png" width="100" alt="Piyumanjalee Kavindi"/><br />
         <b>Piyumanjalee Kavindi</b>
       </a><br />
-      <sub>Member</sub><br />
       <sub><a href="https://github.com/Piyumanjalee">@Piyumanjalee</a></sub>
     </td>
     <td align="center">
@@ -71,7 +67,6 @@ We design and build tooling, agents, and infrastructure that make it easier to d
         <img src="https://github.com/Thinuka2835.png" width="100" alt="Thinuka Ransidu"/><br />
         <b>Thinuka Ransidu</b>
       </a><br />
-      <sub>Owner</sub><br />
       <sub><a href="https://github.com/Thinuka2835">@Thinuka2835</a></sub>
     </td>
   </tr>
