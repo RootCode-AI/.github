@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./assets/voicelk-cover.png" alt="VoiceLK by RootCode-AI — Giving Sinhala a voice in the classroom. Sinhala and English text-to-speech." width="1200" />
+
 # RootCode-AI
 
 **Giving Sinhala a voice in the classroom.**
@@ -59,50 +61,6 @@ The speech service only turns text into audio and holds no secrets, so it can mo
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
-
----
-
-## 👥 Team
-
-<table>
-  <tr>
-  <td align="center">
-      <a href="https://github.com/Tharinda-Pamindu">
-        <img src="https://github.com/Tharinda-Pamindu.png" width="100" alt="Tharinda Pamindu"/><br />
-        <b>Tharinda Pamindu</b>
-      </a><br />
-      <sub><a href="https://github.com/Tharinda-Pamindu">@Tharinda-Pamindu</a></sub>
-    </td>
-    <td align="center">
-      <a href="https://github.com/Dilakshi13">
-        <img src="https://github.com/Dilakshi13.png" width="100" alt="Dilakshi Sakila"/><br />
-        <b>Dilakshi Sakila</b>
-      </a><br />
-      <sub><a href="https://github.com/Dilakshi13">@Dilakshi13</a></sub>
-    </td>
-    <td align="center">
-      <a href="https://github.com/Mihiran-Thilakarathna">
-        <img src="https://github.com/Mihiran-Thilakarathna.png" width="100" alt="T.H.Mihiran Thilakarathna"/><br />
-        <b>T.H.Mihiran Thilakarathna</b>
-      </a><br />
-      <sub><a href="https://github.com/Mihiran-Thilakarathna">@Mihiran-Thilakarathna</a></sub>
-    </td>
-    <td align="center">
-      <a href="https://github.com/Piyumanjalee">
-        <img src="https://github.com/Piyumanjalee.png" width="100" alt="Piyumanjalee Kavindi"/><br />
-        <b>Piyumanjalee Kavindi</b>
-      </a><br />
-      <sub><a href="https://github.com/Piyumanjalee">@Piyumanjalee</a></sub>
-    </td>
-    <td align="center">
-      <a href="https://github.com/Thinuka2835">
-        <img src="https://github.com/Thinuka2835.png" width="100" alt="Thinuka Ransidu"/><br />
-        <b>Thinuka Ransidu</b>
-      </a><br />
-      <sub><a href="https://github.com/Thinuka2835">@Thinuka2835</a></sub>
-    </td>
-  </tr>
-</table>
 
 ---
 
