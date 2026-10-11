@@ -6,6 +6,8 @@
 
 We are a student research team building **VoiceLK** — a Sinhala/English code-switched text-to-speech system and the learning platform around it, made for Sri Lanka's G.C.E. O/L ICT students.
 
+[![Visit our blog](https://img.shields.io/badge/Visit_our_blog-voicelk.dev-8E75B2?style=for-the-badge)](https://voicelk.dev)
+
 </div>
 
 ---
@@ -110,9 +112,10 @@ Each repository has its own contributing guide, code of conduct and security pol
 
 ## 📬 Get in touch
 
+- Blog: [voicelk.dev](https://voicelk.dev) — follow our research notes and project updates
 - Email: [rootcode2026@gmail.com](mailto:rootcode2026@gmail.com)
 
-<!-- TODO: add website, X/Twitter, LinkedIn, etc. once available -->
+<!-- TODO: add X/Twitter, LinkedIn, etc. once available -->
 
 ---
 
