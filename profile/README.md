@@ -31,12 +31,15 @@ The speech service only turns text into audio and holds no secrets, so it can mo
 
 ## 📦 Repositories
 
-| Repository | What it is | Stack |
-| --- | --- | --- |
-| [**voicelk_fe**](https://github.com/RootCode-AI/voicelk_fe) | Web client — chat-style topic input, audio playback, history, profile, guest mode and help centre | React 19 · Vite · Tailwind CSS |
-| [**voicelk_be**](https://github.com/RootCode-AI/voicelk_be) | Application backend — authentication, questions and answers, Gemini orchestration, audio storage and records, speech endpoints | Java 25 · Spring Boot · Supabase |
-| [**bridge**](https://github.com/Tharinda-Pamindu/bridge) | TTS microservice — serves the trained model over HTTP; self-contained and deployable with Docker or systemd | Python · FastAPI · PyTorch |
-| [**voicelk_ml**](https://github.com/RootCode-AI/voicelk_ml) | Research code — Sinhala/English text normalisation, code-switched G2P with an ICT lexicon, dataset preparation, VITS training, synthesis and evaluation | Python · PyTorch · Coqui TTS (vendored) |
+| Repository | Access | What it is | Stack |
+| --- | --- | --- | --- |
+| [**voicelk_ml**](https://github.com/RootCode-AI/voicelk_ml) | Public | Research code — Sinhala/English text normalisation, code-switched G2P with an ICT lexicon, dataset preparation, VITS training, synthesis and evaluation | Python · PyTorch · Coqui TTS (vendored) |
+| **voicelk_fe** | 🔒 Private | Web client — chat-style topic input, audio playback, history, profile, guest mode and help centre | React 19 · Vite · Tailwind CSS |
+| **voicelk_be** | 🔒 Private | Application backend — authentication, questions and answers, Gemini orchestration, audio storage and records, speech endpoints | Java 25 · Spring Boot · Supabase |
+| **bridge** | 🔒 Private | TTS microservice — serves the trained model over HTTP; self-contained and deployable with Docker or systemd | Python · FastAPI · PyTorch |
+| **blog** | 🔒 Private | Source of our project blog at [voicelk.dev](https://voicelk.dev) | — |
+
+The research code is open so the speech pipeline can be read and examined. The application, the speech service and the blog source are kept private; their behaviour is described here and on the blog.
 
 ## 🔬 Research highlights
 
@@ -66,7 +69,7 @@ The speech service only turns text into audio and holds no secrets, so it can mo
 
 ## 🤝 Contributing
 
-Each repository has its own contributing guide, code of conduct and security policy. Pronunciation problems are especially welcome — if VoiceLK says a word wrongly, open an issue on the speech service with the sentence and what you expected to hear. All repositories are released under the MIT License.
+The public research repository has its own contributing guide, code of conduct and security policy, and is released under the MIT License. Pronunciation problems are especially welcome — if VoiceLK says a word wrongly, open an issue on [**voicelk_ml**](https://github.com/RootCode-AI/voicelk_ml/issues) with the sentence and what you expected to hear; the text front-end that decides how words are read lives there. For anything about the private repositories, email us.
 
 ## 📬 Get in touch
 
