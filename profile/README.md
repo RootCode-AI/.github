@@ -8,6 +8,7 @@
 
 We are a student research team building **VoiceLK** — a Sinhala/English code-switched text-to-speech system and the learning platform around it, made for Sri Lanka's G.C.E. O/L ICT students.
 
+[![Try VoiceLK](https://img.shields.io/badge/Try_VoiceLK-chat.voicelk.dev-111111?style=for-the-badge)](https://chat.voicelk.dev)
 [![Visit our blog](https://img.shields.io/badge/Visit_our_blog-voicelk.dev-8E75B2?style=for-the-badge)](https://voicelk.dev)
 
 </div>
@@ -29,23 +30,39 @@ The speech service only turns text into audio and holds no secrets, so it can mo
 
 ---
 
+## 🎧 Hear VoiceLK
+
+These clips were rendered by **Speaker 02 V2.1**, our next single-speaker release, straight from the sentences below. Nothing was edited afterwards. Select a waveform to open its clip.
+
+| Listen | Sentence | What it shows |
+| --- | --- | --- |
+| [<img src="./assets/samples/01-ram.png" alt="Waveform of the RAM sample" width="260" />](https://github.com/RootCode-AI/.github/blob/main/profile/assets/samples/01-ram.wav) | RAM එක කියන්නේ computer එකේ තාවකාලික මතකයයි. | An English acronym and an English word inside a Sinhala sentence |
+| [<img src="./assets/samples/02-cpu.png" alt="Waveform of the CPU sample" width="260" />](https://github.com/RootCode-AI/.github/blob/main/profile/assets/samples/02-cpu.wav) | CPU එක පරිගණකයේ මොළය ලෙස හඳුන්වනවා. | Acronyms spelt out letter by letter, the way a teacher says them |
+| [<img src="./assets/samples/03-html.png" alt="Waveform of the HTML sample" width="260" />](https://github.com/RootCode-AI/.github/blob/main/profile/assets/samples/03-html.wav) | HTML භාවිතා කරලා අපිට web page එකක් හදන්න පුළුවන්. | Switching language several times in one sentence |
+| [<img src="./assets/samples/04-units.png" alt="Waveform of the units sample" width="260" />](https://github.com/RootCode-AI/.github/blob/main/profile/assets/samples/04-units.wav) | 1 GB එකක MB 1024ක් තියෙනවා. | Digits and units expanded into spoken words |
+| [<img src="./assets/samples/05-email.png" alt="Waveform of the e-mail sample" width="260" />](https://github.com/RootCode-AI/.github/blob/main/profile/assets/samples/05-email.wav) | ඔබේ e-mail ගිණුම ශක්තිමත් password එකකින් ආරක්ෂා කරගන්න. | Hyphenated terms and everyday ICT vocabulary |
+
+<sub>22.05 kHz mono WAV, about 3 seconds each. Speaker 02 V2.1 is not live in the app yet; the voices you can use today are listed in the app's voice picker.</sub>
+
+---
+
 ## 📦 Repositories
 
-| Repository | Access | What it is | Stack |
-| --- | --- | --- | --- |
-| [**voicelk_ml**](https://github.com/RootCode-AI/voicelk_ml) | Public | Research code — Sinhala/English text normalisation, code-switched G2P with an ICT lexicon, dataset preparation, VITS training, synthesis and evaluation | Python · PyTorch · Coqui TTS (vendored) |
-| **voicelk_fe** | 🔒 Private | Web client — chat-style topic input, audio playback, history, profile, guest mode and help centre | React 19 · Vite · Tailwind CSS |
-| **voicelk_be** | 🔒 Private | Application backend — authentication, questions and answers, Gemini orchestration, audio storage and records, speech endpoints | Java 25 · Spring Boot · Supabase |
-| **bridge** | 🔒 Private | TTS microservice — serves the trained model over HTTP; self-contained and deployable with Docker or systemd | Python · FastAPI · PyTorch |
-| **blog** | 🔒 Private | Source of our project blog at [voicelk.dev](https://voicelk.dev) | — |
+| Repository | What it is | Stack |
+| --- | --- | --- |
+| [**voicelk_ml**](https://github.com/RootCode-AI/voicelk_ml) | Research code — Sinhala/English text normalisation, code-switched G2P with an ICT lexicon, dataset preparation, VITS training, synthesis and evaluation | Python · PyTorch · Coqui TTS (vendored) |
+| [**voicelk_bridge**](https://github.com/RootCode-AI/voicelk_bridge) | TTS microservice — serves the trained models over HTTP; self-contained and deployable with Docker or systemd | Python · FastAPI · PyTorch |
+| [**voicelk_be**](https://github.com/RootCode-AI/voicelk_be) | Application backend — authentication, questions and answers, Gemini orchestration, voice catalogue, audio storage and records, speech endpoints | Java 25 · Spring Boot 4.1 · Supabase |
+| [**voicelk_fe**](https://github.com/RootCode-AI/voicelk_fe) | Web client — chat-style topic input, voice picker, audio playback, history, profile, guest mode and help centre; live at [chat.voicelk.dev](https://chat.voicelk.dev) | React 19 · Vite · Tailwind CSS |
+| [**voicelk_blog**](https://github.com/RootCode-AI/voicelk_blog) | Source of our project blog at [voicelk.dev](https://voicelk.dev) | — |
 
-The research code is open so the speech pipeline can be read and examined. The application, the speech service and the blog source are kept private; their behaviour is described here and on the blog.
+Every part of VoiceLK is open source, from the research pipeline to the speech service, the application and the blog, so the whole system can be read and examined end to end. The research code, the speech service, the backend and the web client are released under the MIT License; the Coqui TTS and trainer sources vendored into the research code and the speech service keep their own licenses, listed in those repositories' third-party notices.
 
 ## 🔬 Research highlights
 
 - **One text front-end.** Normalisation and pronunciation are written once in the research repository and used for dataset preparation, training, evaluation and serving. The bridge carries a synced, fingerprinted copy, so a stale front-end shows up in its health check instead of quietly mispronouncing words.
 - **Code-switching first.** Numbers, symbols, acronyms and English ICT vocabulary are expanded and pronounced the way a Sri Lankan teacher would say them, mid-sentence.
-- **Two voices.** A multi-speaker model trained on the Pathnirwana corpus and a custom single-speaker model, selectable per request with speaker and speaking-rate controls.
+- **Versioned voices.** A multi-speaker model trained on the Pathnirwana corpus (Speaker 03) and our own single-speaker model, Speaker 02, whose releases are served side by side — V1.0, the new V2.0, and V2.1 coming soon. Each is selectable per request with speaker and speaking-rate controls, and older voices are retired openly rather than swapped out silently.
 - **Presentable by design.** Core libraries such as Coqui TTS and its trainer are vendored as real source, so every part of the pipeline can be read and examined.
 
 ---
@@ -69,10 +86,23 @@ The research code is open so the speech pipeline can be read and examined. The a
 
 ## 🤝 Contributing
 
-The public research repository has its own contributing guide, code of conduct and security policy, and is released under the MIT License. Pronunciation problems are especially welcome — if VoiceLK says a word wrongly, open an issue on [**voicelk_ml**](https://github.com/RootCode-AI/voicelk_ml/issues) with the sentence and what you expected to hear; the text front-end that decides how words are read lives there. For anything about the private repositories, email us.
+Issues and pull requests are welcome on every repository. Each one carries its own code of conduct and security policy — read them first, and report security problems privately as they describe rather than in a public issue.
+
+Open your issue where the problem lives:
+
+| If… | Open it on |
+| --- | --- |
+| VoiceLK says a word wrongly | [**voicelk_ml**](https://github.com/RootCode-AI/voicelk_ml/issues) — the text front-end that decides how words are read lives there; include the sentence and what you expected to hear |
+| Audio fails to generate, or a voice will not load | [**voicelk_bridge**](https://github.com/RootCode-AI/voicelk_bridge/issues) |
+| Sign-in, answers or saved audio misbehave | [**voicelk_be**](https://github.com/RootCode-AI/voicelk_be/issues) |
+| Something looks or works wrong in the app | [**voicelk_fe**](https://github.com/RootCode-AI/voicelk_fe/issues) |
+| A blog post has a mistake | [**voicelk_blog**](https://github.com/RootCode-AI/voicelk_blog/issues) |
+
+The bridge carries a generated copy of the text front-end, so pronunciation fixes always go to **voicelk_ml** first and reach the speech service from there.
 
 ## 📬 Get in touch
 
+- App: [chat.voicelk.dev](https://chat.voicelk.dev) — try VoiceLK in your browser
 - Blog: [voicelk.dev](https://voicelk.dev) — follow our research notes and project updates
 - Email: [rootcode2026@gmail.com](mailto:rootcode2026@gmail.com)
 
