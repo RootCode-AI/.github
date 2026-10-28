@@ -32,17 +32,44 @@ The speech service only turns text into audio and holds no secrets, so it can mo
 
 ## 🎧 Hear VoiceLK
 
-These clips were rendered by **Speaker 02 V2.1**, our next single-speaker release, straight from the sentences below. Nothing was edited afterwards. Select a waveform to open its clip.
+These clips were rendered by **Speaker 02 V2.1**, our next single-speaker release, straight from the sentences below. Nothing was edited afterwards. Press play under any sentence — the waveform fills in as the voice speaks.
 
-| Listen | Sentence | What it shows |
-| --- | --- | --- |
-| [<img src="./assets/samples/01-ram.png" alt="Waveform of the RAM sample" width="260" />](https://github.com/RootCode-AI/.github/blob/main/profile/assets/samples/01-ram.wav) | RAM එක කියන්නේ computer එකේ තාවකාලික මතකයයි. | An English acronym and an English word inside a Sinhala sentence |
-| [<img src="./assets/samples/02-cpu.png" alt="Waveform of the CPU sample" width="260" />](https://github.com/RootCode-AI/.github/blob/main/profile/assets/samples/02-cpu.wav) | CPU එක පරිගණකයේ මොළය ලෙස හඳුන්වනවා. | Acronyms spelt out letter by letter, the way a teacher says them |
-| [<img src="./assets/samples/03-html.png" alt="Waveform of the HTML sample" width="260" />](https://github.com/RootCode-AI/.github/blob/main/profile/assets/samples/03-html.wav) | HTML භාවිතා කරලා අපිට web page එකක් හදන්න පුළුවන්. | Switching language several times in one sentence |
-| [<img src="./assets/samples/04-units.png" alt="Waveform of the units sample" width="260" />](https://github.com/RootCode-AI/.github/blob/main/profile/assets/samples/04-units.wav) | 1 GB එකක MB 1024ක් තියෙනවා. | Digits and units expanded into spoken words |
-| [<img src="./assets/samples/05-email.png" alt="Waveform of the e-mail sample" width="260" />](https://github.com/RootCode-AI/.github/blob/main/profile/assets/samples/05-email.wav) | ඔබේ e-mail ගිණුම ශක්තිමත් password එකකින් ආරක්ෂා කරගන්න. | Hyphenated terms and everyday ICT vocabulary |
+<!--
+  Players: GitHub only plays videos uploaded as attachments, so each clip is an MP4
+  attachment. Replace a waveform line with the attachment link, alone on its line.
+-->
 
-<sub>22.05 kHz mono WAV, about 3 seconds each. Speaker 02 V2.1 is not live in the app yet; the voices you can use today are listed in the app's voice picker.</sub>
+**1 · RAM** — an English acronym and an English word inside a Sinhala sentence
+
+> RAM එක කියන්නේ computer එකේ තාවකාලික මතකයයි.
+
+[<img src="./assets/samples/01-ram.png" alt="Waveform of the RAM sample" width="420" />](https://github.com/RootCode-AI/.github/blob/main/profile/assets/samples/01-ram.wav)
+
+**2 · CPU** — acronyms spelt out letter by letter, the way a teacher says them
+
+> CPU එක පරිගණකයේ මොළය ලෙස හඳුන්වනවා.
+
+[<img src="./assets/samples/02-cpu.png" alt="Waveform of the CPU sample" width="420" />](https://github.com/RootCode-AI/.github/blob/main/profile/assets/samples/02-cpu.wav)
+
+**3 · HTML** — switching language several times in one sentence
+
+> HTML භාවිතා කරලා අපිට web page එකක් හදන්න පුළුවන්.
+
+[<img src="./assets/samples/03-html.png" alt="Waveform of the HTML sample" width="420" />](https://github.com/RootCode-AI/.github/blob/main/profile/assets/samples/03-html.wav)
+
+**4 · GB and MB** — digits and units expanded into spoken words
+
+> 1 GB එකක MB 1024ක් තියෙනවා.
+
+[<img src="./assets/samples/04-units.png" alt="Waveform of the units sample" width="420" />](https://github.com/RootCode-AI/.github/blob/main/profile/assets/samples/04-units.wav)
+
+**5 · e-mail** — hyphenated terms and everyday ICT vocabulary
+
+> ඔබේ e-mail ගිණුම ශක්තිමත් password එකකින් ආරක්ෂා කරගන්න.
+
+[<img src="./assets/samples/05-email.png" alt="Waveform of the e-mail sample" width="420" />](https://github.com/RootCode-AI/.github/blob/main/profile/assets/samples/05-email.wav)
+
+<sub>The original 22.05 kHz mono WAV files are kept in [profile/assets/samples](https://github.com/RootCode-AI/.github/tree/main/profile/assets/samples). Speaker 02 V2.1 is not live in the app yet; the voices you can use today are listed in the app's voice picker.</sub>
 
 ---
 
